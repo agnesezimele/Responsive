@@ -1,0 +1,31 @@
+h2 {
+    color: blue;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .item {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1000px){
+    .container {
+        flex-wrap: wrap;
+    }
+    .item {
+        width: 30%;
+        background-color: aqua;
+    }
+}
