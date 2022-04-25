@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+img {
+    max-width: 100%;
+}
+
 h2 {
     color: blue;
+    font-family: cursive;
 }
 
 .container {
@@ -29,3 +36,4 @@ h2 {
         background-color: aqua;
     }
 }
+
